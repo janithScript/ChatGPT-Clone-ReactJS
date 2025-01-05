@@ -49,7 +49,7 @@ body {
   height: 2rem;
   padding-right: 1rem;
 }
-.midBtn{
+.midBtn {
   background: #5A4BFF;
   border: none;
   color: white;
@@ -62,19 +62,35 @@ body {
   margin: 0 auto;
   margin-bottom: 3rem;
   border-radius: 0.5rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.query{
+.midBtn:hover {
+  background-color: #4839FF; 
+  cursor: pointer; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.query {
   display: flex;
   align-items: center;
   background: transparent;
-  color: rgba(222,222,222,1);
+  color: rgba(222, 222, 222, 1);
   padding: 1.5rem;
   width: 25rem;
   margin: 0.1rem auto;
   border-radius: 0.5rem;
-  border: 1px solid rgba(98,98,98,1);
+  border: 1px solid rgba(98, 98, 98, 1);
+  transition: border-color 0.3s ease, color 0.3s ease;
 }
+
+.query:hover {
+  border-color: rgba(222, 222, 222, 1); 
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer; 
+}
+
 .query>img{
   margin-right: 2rem;
   object-fit: cover;
@@ -173,4 +189,9 @@ body {
 
 .chatFooter>p{
   margin: 2rem 0;
+}
+
+.txt{
+  line-height: 2.4rem;
+  color: rgba(222,222,222,1);
 }
