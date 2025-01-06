@@ -8,14 +8,13 @@ A responsive React-based ChatGPT clone that provides an interactive chat interfa
 ## Key Features
 - Real-time AI responses using OpenAI integration
 - Modern and responsive UI design
-- Message history with auto-scroll
 - Quick access buttons for common queries
 - New chat functionality
 - Enter key support for message sending
 
 ## Tech Stack
 - React.js
-- OpenAI API
+- OpenAI API / text-davinci-003
 - CSS3
 - HTML5
 
